@@ -1,0 +1,38 @@
+head
+ul.a {
+    list-style-type: circle;
+}
+
+.sections{
+  color:#777;
+  background-color:rgb(205, 242, 249,0.5);
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+.thumbnail {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  height: auto;
+  width: auto;
+  -webkit-transform: translate(-25%,-25%);
+      -ms-transform: translate(-25%,-25%);
+          transform: translate(-25%,-25%);
+}
+.thumbnail img.portrait {
+  width: 25%;
+  height: auto;
+}
+  }
